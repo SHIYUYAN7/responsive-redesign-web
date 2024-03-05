@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 body, html {
     margin: 0;
     padding: 0;
@@ -7,6 +8,15 @@ body, html {
     
     /* set whole page to same font family */
     font-family: "Noto Serif", serif;
+}
+
+.menu-button {
+    display: none;
+}
+.menu-image{
+    width: 7vmin; 
+    height: 6vmin;
+    margin-right: 4vw;
 }
 .menu-bar{
     background-color: #24454A;
@@ -41,10 +51,10 @@ body, html {
     color: white;  
     text-decoration: none;    /* remove base line */
     transition: color 0.3s;   /* smooth color change effect */
-    font-size: 2.5vmin;
+    font-size: 1.6vw;
 
-    padding-right: 5vw;
-    padding-bottom: 1.35vh;
+    padding-right: 3vw;
+    padding-bottom: 1.2vmin;
 }
 .option-bar a:hover {
     color: #FFFF00;  /* mouse hover color */
@@ -64,23 +74,23 @@ body, html {
     background-color: rgba(0, 0, 0, 0.7); /* 70% transparency */
     color: #fff; /* text color */
 
-    height: 20vmin;
-    width: 30vmin; 
-    font-size: 1.5vmin;
+    height: 30vmin;
+    width: 40vmin; 
+    font-size: 2.2vmin;
 
     padding-left: 4.5vmin;
-    padding-top: 1.5vmin;
+    padding-top: 1.6vmin;
 
     /* rounded corner for top-left-right */
-    border-top-left-radius: 40px; 
-    border-top-right-radius: 40px; 
+    border-top-left-radius: 5vmin; 
+    border-top-right-radius: 5vmin; 
     box-sizing: border-box; 
 }
 .contact-item {
     display: flex; 
     align-items: center; 
 }
-.icon {
+.contact-icon {
     margin-right: 1vmin; 
     width: 2.5vmin; 
     height: 2.5vmin;
@@ -143,3 +153,16 @@ body, html {
 .floorplan button:hover {
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 768px) {
+    .option-bar {
+        display: none; 
+    }
+    .menu-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+

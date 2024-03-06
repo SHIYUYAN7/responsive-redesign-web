@@ -186,6 +186,18 @@ body, html {
     transform: scale(1.1);
 }
 
+footer {
+    background-color: #24454A;
+    color: #fff; 
+    padding: 2vmin 0; 
+    font-size: 2vmin; 
+}
+.footer-container {
+    width: 80%;
+    margin: 0 auto; /* center */
+    text-align: left; 
+}
+
 @media screen and (max-width: 768px) {
     .option-bar {
         display: none; 

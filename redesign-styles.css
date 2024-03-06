@@ -22,7 +22,7 @@ body, html {
     /* from .menu-button*/
     top: 100%; 
     right: 0%; 
-    /* box-shadow: 0px 4px 8px rgba(0,0,0,0.1);  */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); 
     z-index: 11;
     flex-direction: column;
     background: #fff; 
@@ -98,7 +98,7 @@ body, html {
 .background-image {
     position: relative; /* father of contact card */
     background-image: url('assets/background.jpeg'); 
-    height: 100%; /* full screen as 100% (plus header) */
+    height: 100vh; /* full screen as 100% (plus header) */
     background-size: cover;
     background-position: center;
 }

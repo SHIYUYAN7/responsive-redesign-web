@@ -255,6 +255,15 @@ footer {
         /* border: 0.2vmin solid #24454A; */
         /* padding: 3vmin; */
     }
+    .vertical-bar a {
+        color: #24454A;  
+        text-decoration: none;    /* remove base line */
+        font-size: 3.5vw;
+    
+        padding:2vmin;
+    
+        border-bottom: 1px solid #eaeaea; /* Add a light border to the bottom of each link */
+    }
 }
 
 

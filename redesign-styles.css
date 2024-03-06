@@ -114,7 +114,7 @@ body, html {
     font-size: 2.2vmin;
 
     padding-left: 4.5vmin;
-    padding-top: 0.5vmin;
+    padding-top: 1.8vmin;
 
     /* rounded corner for top-left-right */
     border-top-left-radius: 5vmin; 
@@ -126,7 +126,7 @@ body, html {
     align-items: center; 
 }
 .contact-icon {
-    margin-right: 1vmin; 
+    margin-right: 2.5vmin; 
     width: 2.5vmin; 
     height: 2.5vmin;
 }
@@ -226,7 +226,7 @@ footer {
         font-size: 3.5vmin;
     
         padding-left: 20vmin;
-        padding-top: 0.5vmin;
+        padding-top: 4vmin;
     
         /* rounded corner for top-left-right */
         border-top-left-radius: 10vmin; 

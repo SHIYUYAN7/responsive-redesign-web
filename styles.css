@@ -9,7 +9,7 @@ body, html {
     font-family: "Noto Serif", serif;
 }
 footer{
-    background: url(assets/footer-background.jpg);
+    background: #707070;
     margin-top: 10%;
     background-size: cover;
     background-position: center;
@@ -203,6 +203,4 @@ h3 {
 .footer-content{
     padding: 3vmin 0;
     color: #fff; 
-    font-weight: 600;
-    text-shadow: 2px 2px 4px #000000; 
 }
